@@ -146,16 +146,18 @@ header {
         display: block;
     }
     .navbar {
-        position: absolute;
-        top: 100%;
+        position: fixed;
+        top: 0;
         right: -100%;
         width: 270px;
-        height: 320px;
+        height: 330px;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
         border-radius: 10px;
-        transition: all .50s ease;
+        transition: right .50s ease;
+        margin-right: 1%;
+        margin-top: 8%;
 
         background-color: rgba(255, 255, 255, 0.03);
         backdrop-filter: blur(15px);
@@ -176,7 +178,7 @@ header {
         color: var(--text-color);
     }
     .navbar.open {
-        right: 2%;
+        right: 0;
     }
 }
 
@@ -388,6 +390,7 @@ form a:hover {
     font-size: 40px;
     text-transform: capitalize;
     margin-bottom: 20px;
+    margin-left: 5px;
 }
 
 .about-text h5 {
@@ -396,6 +399,7 @@ form a:hover {
     text-transform: capitalize;
     margin-bottom: 25px;
     letter-spacing: 2px;
+    margin-left: 5px;
 }
 
 span {
@@ -408,6 +412,8 @@ span {
     line-height: 28px;
     font-size: 14px;
     margin-bottom: 45px;
+    margin-left: 5px;
+    margin-right: 20px;
 }
 
 .button3 {
