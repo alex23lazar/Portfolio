@@ -188,7 +188,7 @@ header {
     width: 100%;
     height: 60%;
     padding: 370px 0;
-    background: url(../Imagini/abstract-gold-black-luxury.png);
+    background: url(../Images/abstract-gold-black-luxury.png);
 }
 
 .loginbox {
@@ -286,7 +286,7 @@ form a:hover {
 .hero {
     width: 100%;
     padding: 78px 0px;
-    background: url(../Imagini/black-abstract-background.png);
+    background: url(../Images/black-abstract-background.png);
 }
 
 .hero img {
